@@ -12,6 +12,7 @@ import java.util.List;
 public class StudentController {
     @RequestMapping("hello")
     public String SayHi() {
+        System.out.println("asdasd");
         return "你好，大哥";
     }
 
